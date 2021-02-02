@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Formulário </title>
+        <meta charset="utf-8" />   
+        <link href="css/style.css" rel="stylesheet" type="text/css"> 
+    </head>
+
+    <body>
+
+        <form>
+            <fieldset>
+                <legend>Formulário</legend>
+                <div><input type="text" name="nome" placeholder="Digite o seu nome" /></div>
+               <div> <input type="text" name="e-mail" placeholder="Digite o seu e-mail" /></div>
+               <div>
+                <div> <input type="text" name="profissão" placeholder="Digite o sua profissão de programacão" /></div>
+
+                   <select name="lista">
+                       <option disabled selected>Qual sua idade?</option>
+                       <option value="20">20</option>
+                       <option value="30+">30+</option>
+                       <option value="40+">40+</option>
+
+                   </select>
+               </div>
+               <h2>Qual sua área?</h2>
+               <div class="input">
+               <div>
+                   <input type="radio" name="área" value="Front-End" /><span>Front-End</span>
+               </div>
+               <div>
+                   <input type="radio" name="área" value="Back-End" /><span>Back-End</span>
+               </div>
+               <div>
+                   <input type="radio" name="área" value="Full-Stack" /><span>Full-Stack</span>
+               </div>
+                </div>
+
+                <h2>Qual seu nível de programacão?</h2>
+               <div class="input">
+               <div>
+                   <input type="checkbox" name="nível[]" value="Júnior" /><span>Júnior</span>
+               </div>
+               <div>
+                   <input type="checkbox" name="nível[]" value="Pleno" /><span>Pleno</span>
+               </div>
+               <div>
+                   <input type="checkbox" name="nível[]" value="Sênior" /><span>Sênior</span>
+               </div>
+                </div>
+
+                   <div>
+                       <textarea name="observacao" placeholder="Possui alguma observação? "></textarea>
+                   </div>
+
+                <div>
+                    <input type="submit" name="Acão" value="Enviar!">
+                </div>
+
+            </fieldset>
+        </form>
+
+
+    </body>
+
+</html>
